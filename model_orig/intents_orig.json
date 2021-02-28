@@ -1,0 +1,229 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Is anyone there?",
+                "Hello",
+                "Hay",
+                "Hola"
+            ],
+            "responses": [
+                "Hello! I'm Ashe, your Research Navibot at the U. I'm named after Dr. Bowman Foster Ashe, the first president of the University!",
+                "Hi! I'm Ashe, a bot here to help with University research questions. I'm named after Dr. Bowman Foster Ashe, the first president of the U.",
+                "Hi there! My name is Ashe. I've been trained to answer questions about research at the U."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Good bye",
+                "I am done",
+                "Bye Bye",
+                "I am going now"
+            ],
+            "responses": [
+                "See you later! I'm a bot who's always hoping to improve. Please email vprs@miami.edu to let us know about your experience with me.",
+                "Have a nice day! I'm a bot who's always hoping to improve. Please email vprs@miami.edu to let us know about your experience with me.",
+                "Bye! Come back again! I'm a bot who's always hoping to improve. Please email vprs@miami.edu to let us know about your experience with me."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thanks for the help"
+            ],
+            "responses": [
+                "Happy to help! If you have suggestions on how I can improve, please email vprs@miami.edu.",
+                "Any time! If you have suggestions on how I could be more helpful, please email vprs@miami.edu.",
+                "My pleasure! If you have suggestions on how I could be more helpful, please email vprs@miami.edu.",
+                "You're most welcome! If you have suggestions on how I could be more helpful, please email vprs@miami.edu."
+            ]
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?",
+                "What are you?",
+                "Who you are?"
+            ],
+            "responses": [
+                "I'm Ashe, your Research Navibot at the U",
+                "I'm Ashe, a bot here to help with University research questions.",
+                "My name is Ashe. I've been trained to answer questions about research at the U"
+            ]
+        },
+        {
+            "tag": "name",
+            "patterns": [
+                "what is your name",
+                "what should I call you",
+                "whats your name?"
+            ],
+            "responses": [
+                "You can call me Ashe.",
+                "I'm Ashe!",
+                "My name is Ashe",
+                "I'm Ashe, pleased to meet you!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Could you help me?",
+                "help",
+                "help me",
+                "give me a hand please",
+                "Can you help?",
+                "What can you do for me?",
+                "I need some help",
+                "I need help",
+                "support me please"
+            ],
+            "responses": [
+                "I'm happy to help. How can I assist you?",
+                "Absolutely! Tell me what information you need.",
+                "Of course, how can I support you?"
+            ]
+        },
+        {
+            "tag": "viceprovost",
+            "patterns": [
+                "Who is the Vice Provost",
+                "vice provost",
+                "What is the Vice Provost's name",
+                "who is in charge",
+                "who leads research"
+            ],
+            "responses": [
+                "The Vice Provost for Research + Scholarship is Dr. Erin Kobetz, PhD, MPH. ",
+                "Erin Kobetz, PhD, MPH is the Vice Provost for Research + Scholarship.",
+                "The Vice Provost for Research + Scholarship leads several research-enabling functions at the U."
+            ]
+        },
+        {
+            "tag": "vprsgeneral",
+            "patterns": [
+                "what is under vice provost",
+                "what is vprs",
+                "who works for vice provost",
+                "what is research and scholarship",
+                "what is this office"
+            ],
+            "responses": [
+                "The VPRS oversees several divisions that focus on Research + Scholarship, including Research Development and Evaluation, Research Intelligence, Research Capacity & Operations, Research Administration, and Regulatory Affairs and Assessment.",
+                "The VPRS oversees many aspects of Research + Scholarship at the U, from helping find a team and funding to resources for animal studies and human subjects research. Learn more in 'About Research at the University' in the top navigation bar.",
+                "We have lots of information to help you navigate the office in the VPRS. Check them out in Research at the University > OVPRS Administrative Areas."
+            ]
+        },
+        {
+            "tag": "researchadmin",
+            "patterns": [
+                "what is ORA",
+                "where is ORA",
+                "i need to talk to ORA",
+                "what is research administration",
+                "what is office of research administration",
+                "ora",
+                "research administration"
+            ],
+            "responses": [
+                "Research Administration at the U helps researchers with sponsored proposals, contract negotiations, and managing sponsored funds. Find them at ora.miami.edu.",
+                "Research Administration has experts working on pre-award, contract negotiations, and post-award management. Find them at ora.miami.edu.",
+                "Research Administration helps with all financial aspects of applying for and managing grants, and is the entity that approves billing rates for the University. Find them at ora.miami.edu."
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        },
+        {
+            "tag": "complaint",
+            "patterns": [
+                "have a complaint",
+                "I want to raise a complaint",
+                "there is a complaint about a service"
+            ],
+            "responses": [
+                "Please provide us your complaint in order to assist you",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+            ]
+        }
+    ]
+}
