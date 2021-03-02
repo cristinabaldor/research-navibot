@@ -1,9 +1,9 @@
 
 import json 
 import numpy as np
+import tensorflow
 from tensorflow import keras
 from sklearn.preprocessing import LabelEncoder
-
 import colorama 
 colorama.init()
 from colorama import Fore, Style, Back
@@ -31,7 +31,7 @@ def chat():
     max_len = 20
     
     while True:
-        print(Fore.LIGHTBLUE_EX + "User: " + Style.RESET_ALL, end="")
+        print(Fore.LIGHTBLUE_EX + "Me: " + Style.RESET_ALL, end="")
         inp = input()
         if inp.lower() == "quit":
             break
@@ -42,9 +42,9 @@ def chat():
 
         for i in data['intents']:
             if i['tag'] == tag:
-                print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL , np.random.choice(i['responses']))
-
-        # print(Fore.GREEN + "ChatBot:" + Style.RESET_ALL,random.choice(responses))
+                print(Fore.GREEN + "Ashe:" + Style.RESET_ALL , np.random.choice(i['responses']))
+    # else:
+    #     print(Fore.GREEN + "Ashe:" + Style.RESET_ALL , 'Sorry, I do not understand')
 
 print(Fore.YELLOW + "Start messaging with the bot (type quit to stop)!" + Style.RESET_ALL)
 chat()
