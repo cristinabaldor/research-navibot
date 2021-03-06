@@ -143,75 +143,100 @@
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "researchdevelopment",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "internal funding",
+                "get internal funding",
+                "i need start-up funding",
+                "internal grant",
+                
+                "fellowships"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "Our Research Development and Evalution team manages internal funding mechanisms, including the Provost's Research Awards, Arts & Humanities Fellowships, and U-LINK. Find them in About Research at the University > OVPRS Administrative Areas."
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "provostsawards",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "provost's awards",
+                "provost's research awards",
+                "pra",
+                "apply to pra",
+                "apply for provost award",
+                "apply for research award"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "To find out more about the Provost's Research Awards, visit About Research at the University > OVPRS Administrative Areas > Research Development and Evaluation"
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "loginproblems",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "i have an it problem",
+                "having trouble with log in",
+                "having trouble with login",
+                "need help with program",
+                "need help with system",
+                "cannot log in",
+                "need access to program",
+                "program not working"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "Our Research IT division supports users of research applications, including ePROST, Complion and UDisclose. Email their support system at resinfo@med.miami.edu to create a ticket."
+                
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "animalstudies",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "need to order animals",
+                "animal facilities",
+                "research with animals",
+                "mice",
+                "lab animals"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "The Division of Veterinary Resources manages requests for animals for use in research. Learn more here: https://research.miami.edu/about/admin-areas/rco/dvr/index.html",
+                "Our Division of Veterinary Resources cares for all the animals we use in research. Learn more here: https://research.miami.edu/about/admin-areas/rco/dvr/index.html"
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "dadjokes",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "tell me a joke",
+                "do you know jokes",
+                "i need a laugh",
+                "make me laugh"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "I'm starting to write a book about a tornado disaster...it's just a draft at the moment.",
+                "What do you call a robot made of plants? ...A robotanist.",
+                "I'm waiting on a joke about Miami, but it's about 15 minutes late.",
+                "I sold my vacuum cleaner...it was just gathering dust.",
+                "Organic chemistry is difficult. Those who study it have alkynes of trouble.",
+                "Anyone know any jokes about sodium? ... Na",
+                "A couple of researchers had twins. They named one Jessica and the other Control.",
+                "I'm reading a great book about antigravity...I just can’t put it down."
+
             ]
         },
         {
-            "tag": "complaint",
+            "tag": "positivity",
             "patterns": [
-                "have a complaint",
-                "I want to raise a complaint",
-                "there is a complaint about a service"
+                "i need encouragement",
+                "i need inspiration",
+                "i don't know what i am doing",
+                "i am sad",
+                "i am discouraged",
+                "i don't think i can do this"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "Keep Calm and Research On",
+                "You can do this! I believe in you, and I'm an intelligent bot.",
+                "You are extraordinary. I know you can do this!",
+                "You are in the right place! At the U, we have lots of people who can help!",
+                "'When you want something, the entire universe conspires to help you achieve it.' - The Alchemist by Paulo Coehlo"
             ]
         },
         {
