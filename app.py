@@ -130,18 +130,10 @@ def home():
 @app.route("/get/<msg>")
 def get_msg(msg):
     if msg != '':
-        # ChatLog.config(state=NORMAL)
-        # ChatLog.insert(END, "Me: " + msg + '\n\n')
-        # ChatLog.config(foreground="#442265", font=("Verdana", 12 ))
 
         res = chatbot_response(msg)
     return jsonify({'get':res})
 
-
-# @app.route("/get")
-# def get_bot_response():
-#     userText = request.args.get('msg')
-#     return str(chatbot.get_response(userText))
 
 if __name__ == "__main__":
     app.run(debug=True)
