@@ -6,13 +6,13 @@
     <meta content="width=device-width" name="viewport" />
     <title>Ashe, the Research Navibot</title>
     <!-- <link href="/css/foundation-emails.css" rel="stylesheet" /> -->
-    <link href="{{ url_for('static', filename = 'style.css') }}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Trirong:100,200,300,700,900|Open+Sans:300,400,600,700,800"
         rel="stylesheet" />
-    <script type="text/javascript" src="{{ url_for('static', filename = 'app.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/logic.js')}}"></script>
 </head>
 
 <body
@@ -484,10 +484,12 @@ body, table, td, p, a, tr a, th p, table p {font-family: Arial, sans-serif !impo
                                                                         </p>
                                                                         <br>
                                                                         <div class="wrapper">
-                                                                            <div class="title"> Ashe, the UM Research Navigation Bot </div>
+                                                                            <div class="title"> Ashe, the UM Research
+                                                                                Navigation Bot </div>
                                                                             <div class="form">
                                                                                 <div class="bot-inbox inbox">
-                                                                                    <div class="msg-header" id='bot_response'>
+                                                                                    <div class="msg-header"
+                                                                                        id='bot_response'>
                                                                                         <p>Hi I'm Ashe! How can I help
                                                                                             you?</p>
                                                                                     </div>
