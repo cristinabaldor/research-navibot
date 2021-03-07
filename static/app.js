@@ -1,5 +1,3 @@
-
-
 var user_comment = document.getElementById("data").value;
 
 alert('words: '+user_comment);
