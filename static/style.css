@@ -31,20 +31,20 @@ html,body{
 }
 
 .wrapper{
-    width: 370px;
+    width: 603px;
     background: #fff;
     border-radius: 5px;
-    border: 1px solid lightgrey;
+    border: 1px solid #efefef;
     border-top: 0px;
 }
 .wrapper .title{
-    background: #bfbfbf;;
-    color: #fff;
+    background: #efefef;
+    color: black;
     font-size: 20px;
     font-weight: 500;
     line-height: 60px;
     text-align: center;
-    border-bottom: 1px solid #bfbfbf;;
+    border-bottom: 1px solid #efefef;
     border-radius: 5px 5px 0 0;
 }
 .wrapper .form{
@@ -95,7 +95,7 @@ html,body{
     align-items: center;
     justify-content: space-evenly;
     background: #efefef;
-    border-top: 1px solid #d9d9d9;
+    border-top: 1px solid #efefef;
     border-radius: 0 0 5px 5px;
 }
 .wrapper .typing-field .input-data{
@@ -118,7 +118,7 @@ html,body{
     border-color: #f47321;
 }
 .input-data input::placeholder{
-    color: #bfbfbf;
+    color: #999999;
     transition: all 0.3s ease;
 }
 .input-data input:focus::placeholder{
