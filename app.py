@@ -1,10 +1,10 @@
-from tensorflow.keras.models import load_model
+from keras.models import load_model
 import json
 import pickle
 import numpy as np
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import Conv2D, Flatten, Dense
-from tensorflow.keras.optimizers import SGD
+# from tensorflow.keras import Sequential
+# from tensorflow.keras.layers import Conv2D, Flatten, Dense
+# from tensorflow.keras.optimizers import SGD
 import random
 import nltk
 nltk.download('punkt')
