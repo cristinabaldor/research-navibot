@@ -1,4 +1,4 @@
-tensorflow.keras
+tensorflow
 nltk
 gunicorn
 flask
