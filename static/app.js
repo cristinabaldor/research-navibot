@@ -11,7 +11,7 @@ function get_comment(){
     d3.json('/get/'+user_comment).then(function (data) {
         console.log(data['get'])
         var response_area=document.getElementById('bot_response');
-        response_area.innerHTML="<b>" + data['get'] + "</b>";
+        response_area.innerHTML= data['get'];
     })
     
 }
