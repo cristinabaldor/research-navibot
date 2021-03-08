@@ -480,14 +480,14 @@ body, table, td, p, a, tr a, th p, table p {font-family: Arial, sans-serif !impo
                                                                             to respond to a set of possible intents
                                                                             entered by visitors to
                                                                             <a
-                                                                                href="https://research.miami.edu/">research.miami.edu</a>.
-                                                                            Some things Ashe can do: <br>
+                                                                                href="https://research.miami.edu/">research.miami.edu</a>. <br>
+                                                                            <br> Some things Ashe can do: <br>
                                                                             <br>
-                                                                            Answer basic questions about research <br>(Try "Who leads research?" or "What is ORA?") <br>
+                                                                            <strong> Answer basic questions about research </strong> <br>Try "Who leads research?" or "What is ORA?" <br>
                                                                             <br>
-                                                                            Encourage you <br>(Try "I don't know" or "I am sad") <br>
+                                                                            <strong>Encourage you </strong><br>Try "I don't know" or "I am sad" <br>
                                                                             <br>
-                                                                            Tell awful jokes <br> (Try "Make me laugh" or "Tell me a joke") <br>
+                                                                            <strong> Tell awful jokes </strong><br> Try "Make me laugh" or "Tell me a joke" <br>
                                                                             <br>
                                                                             If Ashe can't tell what you mean, they'll introduce themselves again. Ashe is very polite.
                                                                             For a full list of intents and possible responses, check out the JSON here.
@@ -499,21 +499,20 @@ body, table, td, p, a, tr a, th p, table p {font-family: Arial, sans-serif !impo
                                                                                 Navigation Bot </div>
                                                                             <div class="form">
                                                                                 <div class="bot-inbox inbox">
-                                                                                    <div class="msg-header"
-                                                                                        id='bot_response'>
-                                                                                        <p>Hi I'm Ashe! How can I help
-                                                                                            you?</p>
+                                                                                    <div class="msg-header" id='bot_response'>
+                                                                                        <p>Hi I'm Ashe! How can I help you?</p>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="user-inbox inbox">
-                                                                                    <div class="msg-header">
-                                                                                    </div>
+                                                                                    <!-- <div class="msg-header">
+                                                                                    </div> -->
                                                                                 </div>
                                                                                 <div class="typing-field">
                                                                                     <div class="input-data">
                                                                                         <input id="data" type="text"
                                                                                             placeholder="Type something here..."
-                                                                                            required>
+                                                                                            required
+                                                                                            onchange="get_comment()">
                                                                                         <button id="send-btn"
                                                                                             onclick="get_comment()">Send</button>
                                                                                     </div>

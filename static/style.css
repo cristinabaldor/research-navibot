@@ -73,15 +73,24 @@ html,body{
     background: #f47321;
 }
 .wrapper .form .inbox .msg-header{
-    max-width: 53%;
+    max-width: 85%;
     margin-left: 10px;
 }
+
+.form .inbox .msg-header { 
+    color: #fff;
+    background: #f47321;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 16px;
+}
+
 .form .inbox .msg-header p{
     color: #fff;
     background: #f47321;
     border-radius: 10px;
     padding: 8px 10px;
-    font-size: 14px;
+    font-size: 16px;
     word-break: break-all;
 }
 .form .user-inbox .msg-header p{
