@@ -247,9 +247,265 @@
                 "there is a complaint about a service"
             ],
             "responses": [
-                "Please provide us your complaint in order to assist you",
-                "Please mention your complaint, we will reach you and sorry for any inconvenience caused"
+                "Please provide us your complaint in order to assist you. Email vprs@miami.edu.",
+                "Please mention your complaint, we will reach you and sorry for any inconvenience caused. Email vprs@miami.edu."
+            ]
+        },
+        {
+            "tag": "foreigninfluence",
+            "patterns": [
+                "foreign research",
+                "foreign work",
+                "international work",
+                "international partner",
+                "outside us",
+                "foreign engagement disclosure"
+            ],
+            "responses": [
+                "To learn more about foreign engagement, visit https://research.miami.edu/about/admin-areas/raa/foreign-influence/index.html",
+                "Questions about foreign engagements and partnerships? Visit https://research.miami.edu/about/admin-areas/raa/foreign-influence/index.html."
+            ]
+        },
+        {
+            "tag": "udisclosefi1",
+            "patterns": [
+                "What is the UDisclose System?",
+                "What is UDisclose",
+                "where do i do Disclosures",
+                "where is udisclose",
+                "what is udisclose"
+            ],
+            "responses": [
+                "UDisclose is the electronic system the University uses, allowing individuals to disclose external financial interests, foreign engagements and other disclosures.",
+                "UDisclose is the University's disclosure system. Login here: http://udisclose.miami.edu."
+            ]
+        },
+        {
+            "tag": "udisclosefi2",
+            "patterns": [
+                "who needs to disclose",
+                "do i need to disclose",
+                "does everyone need to disclose",
+                "do i have to disclose"
+            ],
+            "responses": [
+                "All full- and part-time active faculty are required to complete a disclosure between March 17th and May 31st. Login here: http://udisclose.miami.edu."
+                
+            ]
+        },
+        {
+            "tag": "udiscloseteam",
+            "patterns": [
+                "Does my study team need to disclose",
+                "Do all investigators disclose",
+                "do lab teams disclose",
+                "do non-faculty disclose"
+            ],
+            "responses": [
+                "Study team members who are not faculty do not need to disclose at this time, unless they are designated to a new award/study/contract under UM’s current interest disclosure process."
+                
+            ]
+        },
+        {
+            "tag": "udiscloseregister",
+            "patterns": [
+                "do I need to register in the system",
+                "register for udisclose",
+                "never disclosed before",
+                "how do i login to udisclose"
+            ],
+            "responses": [
+                "A UDisclose profile has most likely already been created for you, even if you haven't disclosed before. Login here: http://udisclose.miami.edu."
+                
+            ]
+        },
+        {
+            "tag": "udiscloseconfidential",
+            "patterns": [
+                "Are my disclosures kept confidential",
+                "are disclosures public",
+                "are disclosures kept private",
+                "are disclosures kept secret"
+            ],
+            "responses": [
+                "Only certain employees bound to our confidentiality policies will be able to access and review your information. Also, to the greatest extent possible, your information will not be shared outside the University."
+            ]
+        },
+        {
+            "tag": "udisclosefaculty",
+            "patterns": [
+                "do part-time faculty need to disclose",
+                "do volunteer faculty need to disclose",
+                "i am faculty, do i have to disclose",
+                "i am part time, do i have to disclose",
+                "on sabbatical need to disclose"
+                
+            ],
+            "responses": [
+                "All full- and part-time active faculty, including those on sabbatical or leave, are required to complete a disclosure between March 17th and May 31st."
+                
+            ]
+        },
+        {
+            "tag": "disclosewhy",
+            "patterns": [
+                "Why should I disclose private information about my outside interests to UM",
+                "why do i need to disclose",
+                "why should i disclose"
+            ],
+            "responses": [
+                "Disclosure of interests related to institutional responsibilities not only ensures an investigator’s compliance with federal regulations and UM policies, but also allows identification and management of conflicts of interest.",
+                "Disclosure serves to protect the reputations of the investigators and of the institution."
+            ]
+        },
+        {
+            "tag": "disclosefoi",
+            "patterns": [
+                "what is foi",
+                "financial interests",
+                "financial and obligatory interest",
+                "what are obligatory interests"
+            ],
+            "responses": [
+                "Financial interests are: Ownership (valued at $600 or more) in a public company, Any ownership in a privately held company, or Any ownership in a privately held company. An Obligatory Interest is a relationship (regardless of compensation) that involves a responsibility or commitment to an external entity.",
+                "A financial interest means anything of monetary value, whether or not the quantitative value is readily ascertainable, that is related to your institutional responsibilities. An obligatory interest means a relationship (regardless of compensation) that involves a responsibility or commitment to an external entity."
+                
+            ]
+        },
+        {
+            "tag": "discloseopa",
+            "patterns": [
+                "what is opa",
+                "what counts as opa",
+                "outside activities",
+                "outside professional activities"
+            ],
+            "responses": [
+                "All non-University professional activities performed for remuneration, including lecturing, delivering professional advice, expert witness testimony, arbitration, government services, corporate board activities, royalties, and private practice (which is only allowed for services that do not violate University of Miami Medical Group (UMMG) by-laws or compete with services that are or could be offered by the University). Only OPAs performed for $600 or more must be disclosed to the University."
+            ]
+        },
+        {
+            "tag": "disclosetravel",
+            "patterns": [
+                "Who needs to disclose travel?",
+                "do i need to disclose travel",
+                "declaring reimbursement for travel"
+            ],
+            "responses": [
+                "Only those investigators who are involved with Public Health Service (PHS)-funded projects need to disclose sponsored or reimbursed trips they have taken and only if the travel was related to their institutional responsibilities."
+                
+            ]
+        },
+        {
+            "tag": "listserv",
+            "patterns": [
+                "how do i send to listserv",
+                "get on email list",
+                "get off email list",
+                "send something to the listserv"
+            ],
+            "responses": [
+                "The Office of the Vice Provost for Research maintains several e-mail distribution lists (listservs) for the University community. For more information: https://research.miami.edu/about/listserv/index.html"
+                
+            ]
+        },
+        {
+            "tag": "facilities",
+            "patterns": [
+                "list of facilities",
+                "what facilities are available",
+                "what are research cores",
+                "shared resources available",
+                "what are the research shared resources"
+            ],
+            "responses": [
+                "A number of core facilities and shared resources developed at the University of Miami are available to researchers and trainees. See them all here: https://research.miami.edu/about/labs-facilities/index.html"
+                
+            ]
+        },
+        {
+            "tag": "leadersbusiness",
+            "patterns": [
+                "who is business officer",
+                "who leads business operations",
+                "where is the business office",
+                "who is lead for administration",
+                "who is hr",
+                "who is accounting",
+                "who is tonya sautier"
+            ],
+            "responses": [
+                "Tonya Sautier is the Senior Business Officer for the Office of the Vice Provost for Research + Scholarship, she leads all aspects of budget, finance, human resources, operations, administration, and special projects for the organization."
+                
+            ]
+        },
+        {
+            "tag": "leaderora",
+            "patterns": [
+                "who is head of ora",
+                "who leads ora",
+                "who is laura kozma"
+            ],
+            "responses": [
+                "Laura Kozma is the Associate Vice President for Research Administration. She  provides leadership for sponsored administration which includes proposal review and approval, contract negotiations, award management and compliance monitoring, and serves as audit liaison for the Institution for sponsored awards."
+                
+            ]
+        },
+        {
+            "tag": "leaderraa",
+            "patterns": [
+                "who is head of compliance",
+                "lead for compliance",
+                "head of regulatory",
+                "lead for audits",
+                "head of auditing"
+            ],
+            "responses": [
+                "Johanna Stamates is the Associate Vice President for Regulatory Affairs and Assessment. She oversees several offices in the VPRS helping to ensure that University researchers work to a world-class standard."
+            ]
+        },
+        {
+            "tag": "learners",
+            "patterns": [
+                "can students do research",
+                "research for students",
+                "grad students",
+                "post-docs",
+                "join a lab as a student",
+                "research for trainees"
+            ],
+            "responses": [
+                "The University prides itself on involving students in research at every level in their academic career. Learn more here: https://research.miami.edu/learners/index.html"
+                
+            ]
+        },
+        {
+            "tag": "writing",
+            "patterns": [
+                "need help with writing",
+                "writing proposals",
+                "writing tutor",
+                "editing help"
+            ],
+            "responses": [
+                "University support includes one-on-one grant writing support and specialized resources for any kind of investigation. Learn more here: https://research.miami.edu/lifecycle/write-proposal/index.html"
+                
+            ]
+        },
+        {
+            "tag": "outsidefunding",
+            "patterns": [
+                "how do i get grant funding",
+                "funding from government",
+                "outside funding",
+                "grant opportunities outside"
+            ],
+            "responses": [
+                "The University provides access to global databases for research administration and funding opportunities. Learn more here: https://research.miami.edu/lifecycle/identify-opportunities/index.html"
+                
             ]
         }
+       
+        
     ]
 }
